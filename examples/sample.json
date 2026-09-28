@@ -1,0 +1,33 @@
+{
+  "method": "fifo",
+  "grants": [
+    {
+      "id": "G1",
+      "shares": 100,
+      "grant_date": "2023-01-15",
+      "fmv_at_grant": "10.00"
+    }
+  ],
+  "vests": [
+    {
+      "grant_id": "G1",
+      "shares": 50,
+      "vest_date": "2024-01-15",
+      "fmv_at_vest": "20.00"
+    },
+    {
+      "grant_id": "G1",
+      "shares": 50,
+      "vest_date": "2025-01-15",
+      "fmv_at_vest": "30.00"
+    }
+  ],
+  "sales": [
+    {
+      "id": "S1",
+      "shares": 60,
+      "sale_date": "2025-03-01",
+      "proceeds_per_share": "40.00"
+    }
+  ]
+}
